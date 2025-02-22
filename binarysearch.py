@@ -16,9 +16,7 @@ def binarysearchfornumber(anarray, target):
             low = mid + 1
     return None 
 
-arr1 = []
-for i in range(0,129):
-    arr1.append(i)
+arr1 = [i for i in range(128)]
 
 userinput = ""
 while(userinput != "quit"):
