@@ -1,13 +1,4 @@
-# Binary Search of an array with 128 items
-
-arr1 = []
-
-for i in range(0,129):
-    arr1.append(i)
-
-
-
-
+# Binary Search Function
 def binarysearchfornumber(anarray, target):
     low = 0 
     high = len(anarray) - 1
@@ -24,6 +15,10 @@ def binarysearchfornumber(anarray, target):
         elif (guess < target):
             low = mid + 1
     return None 
+
+arr1 = []
+for i in range(0,129):
+    arr1.append(i)
 
 userinput = ""
 while(userinput != "quit"):
